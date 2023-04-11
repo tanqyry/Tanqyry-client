@@ -1,1 +1,22 @@
-<h1>I like balls yes amogus balls 69</h1>
+import React from 'react'
+
+import projectStyles from '.style.module.css'
+import styles from './home.module.css'
+
+const Home = (props) => {
+  return (
+    <div className={styles['container']}>
+      <span>Hello! this is my site and i like balls.</span>
+      <a
+        href="https://github.com/tanqyry/Tanqyry-client"
+        target="_blank"
+        rel="noreferrer noopener"
+        className={` ${styles['link']} ${projectStyles['button']} `}
+      >
+        Here is my skidded client lol
+      </a>
+    </div>
+  )
+}
+
+export default Home
